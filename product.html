@@ -17,13 +17,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
     <title>Cozy | Furniture</title>
-
-    <meta name="description" content="Snow - Clean & Minimal Portfolio HTML template.">
-    <meta name="keywords" content="portfolio, clean, minimal, blog, template, portfolio website">
-    <meta name="author" content="nK">
+    
+    <meta name="description" content="We are porviding cozy and comfort chair in stylish design name puffy at the affordable price.">
+    <meta name="keywords" content="chair, table, puffy, puffy chair, puffy table, comfort chair, cozy, cozy chair, cozy furniture. cozy website, storage table, puffy storage, puffy table, drum chair, puffy drum">
+    <meta name="author" content="HammadEwans">
 
     <link rel="icon" type="image/png" href="assets/images/favicon.png">
-
+    <meta name="theme-color" content="#fff">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- START: Styles -->
@@ -122,18 +122,6 @@
                     </div>
                 </div>
             </div>
-            <div class="nk-nav-row">
-                <div class="container">
-                    <div class="nk-nav-social">
-                        <ul>
-                            <li><a href="https://twitter.com/nkdevv"><i class="fa fa-twitter"></i></a></li>
-                            <li><a href="https://www.facebook.com/unvabdesign/"><i class="fa fa-facebook"></i></a></li>
-                            <li><a href="https://dribbble.com/_nK"><i class="fa fa-dribbble"></i></a></li>
-                            <li><a href="https://www.instagram.com/unvab/"><i class="fa fa-instagram"></i></a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
         </div>
     </nav>
     <!-- END: Navbar Mobile -->
@@ -162,6 +150,12 @@
                         <table class="nk-portfolio-details">
                             <tr>
                                 <td>
+                                    <strong>Price</strong>
+                                </td>
+                                <td id="price"></td>
+                            </tr>
+                            <tr>
+                                <td>
                                     <strong>Category</strong>
                                 </td>
                                 <td id="catogery"></td>
@@ -178,6 +172,30 @@
                                 </td>
                                 <td id="legs"></td>
                             </tr>
+                            <tr>
+                                <td>
+                                    <strong>Height</strong>
+                                </td>
+                                <td id="height"></td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <strong>Foam</strong>
+                                </td>
+                                <td id="foam"></td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <strong>PlyWood</strong>
+                                </td>
+                                <td id="plywood"></td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <strong>PlyWoodBrand</strong>
+                                </td>
+                                <td id="plywoodbrand"></td>
+                            </tr>
                         </table>
                     </div>
                 </div>
@@ -190,30 +208,7 @@
 
 
 
-        <!--
-    START: Footer
--->
-        <footer class="nk-footer">
-
-
-            <div class="nk-footer-cont">
-                <div class="container text-xs-center">
-                    <div class="nk-footer-social">
-                        <ul>
-                            <li><a href="https://twitter.com/nkdevv"><i class="fa fa-twitter"></i></a></li>
-                            <li><a href="https://www.facebook.com/unvabdesign/"><i class="fa fa-facebook"></i></a></li>
-                            <li><a href="https://dribbble.com/_nK"><i class="fa fa-dribbble"></i></a></li>
-                            <li><a href="https://www.instagram.com/unvab/"><i class="fa fa-instagram"></i></a></li>
-                        </ul>
-                    </div>
-
-                    <div class="nk-footer-text">
-                        <p>2016 &copy; Design by Unvab. Code by nK</p>
-                    </div>
-                </div>
-            </div>
-        </footer>
-        <!-- END: Footer -->
+    
 
 
     </div>
@@ -226,21 +221,31 @@
     <script src="assets/js/data.js"></script>
     <script type="text/javascript">
         const Pre_Name = document.getElementById('name');
-        const Pre_Desc = document.getElementById('desc');
+        const Pre_Price = document.getElementById('price');
         const Pre_Catogery = document.getElementById('catogery');
+        const Pre_Desc = document.getElementById('desc');
         const Pre_Fabric = document.getElementById('fabric');
         const Pre_Legs = document.getElementById('legs');
+        const Pre_Height = document.getElementById('height');
+        const Pre_Foam = document.getElementById('foam');
+        const Pre_PlyWood = document.getElementById('plywood');
+        const Pre_PlyWood_Brand = document.getElementById('plywoodbrand');
         const Pre_Image_Source = document.getElementById('image-source');
         const Param = new URLSearchParams(window.location.search);
         if(Param.has('name')){
             const Param_Name = Param.get('name');
-            const Fetch_Product = Product.find(fetched => fetched.Product_Name === Param_Name);
+            const Fetch_Product = Product.find(fetched => fetched.Product_Id === Param_Name);
             if(Fetch_Product){
                 Pre_Name.textContent = Fetch_Product.Product_Name;
-                Pre_Desc.textContent = Fetch_Product.Product_Desc;
+                Pre_Price.textContent = Fetch_Product.Product_Price;
                 Pre_Catogery.textContent = Fetch_Product.Product_Catogery;
+                Pre_Desc.textContent = Fetch_Product.Product_Desc;
                 Pre_Fabric.textContent = Fetch_Product.Product_Fabric;
                 Pre_Legs.textContent = Fetch_Product.Product_Legs;
+                Pre_Height.textContent = Fetch_Product.Product_Height;
+                Pre_Foam.textContent = Fetch_Product.Product_Foam;
+                Pre_PlyWood.textContent = Fetch_Product.Product_PlyWood;
+                Pre_PlyWood_Brand.textContent = Fetch_Product.Product_PlyWood_Brand;
                 Pre_Image_Source.setAttribute('src', 'assets/images/'+Fetch_Product.Product_Image);
             }
         }
