@@ -292,9 +292,9 @@ const Product = [
     },
     {
         Product_Id : '21',
-        Product_Name : 'Simple Satti',
+        Product_Name : 'Simple Table',
         Product_Price : '₹ 6500/- Pair',
-        Product_Catogery : 'Satti',
+        Product_Catogery : 'Table',
         Product_Image : '21.jpeg',
         Product_Desc : 'Sleek and modern, this Line Chair features a streamlined design with clean, elegant lines for a contemporary touch. With its sturdy frame and comfortable seating, it’s perfect for homes, offices, or cafés. A stylish blend of simplicity and sophistication!',
         Product_Fabric : 'Holland',
