@@ -13,7 +13,7 @@ const Product = [
      {
         Product_Id : '1',
         Product_Name : 'Single Binding Pouffe',
-        Product_Price : '₹ 1200/- Pair',
+        Product_Price : '₹ 1800/- Pair',
         Product_Catogery : 'Stool',
         Product_Image : '1.jpeg',
         Product_Desc : 'Elegant and versatile, this Ottoman Stool Pouffe adds a touch of luxury to any space. With its plush upholstery and sturdy design, it offers both comfort and style. Perfect as a footrest, extra seat, or statement piece, it blends seamlessly with any décor. A must-have for chic and cozy interiors!',
@@ -41,7 +41,7 @@ const Product = [
     {
         Product_Id : '3',
         Product_Name : 'Room Chair',
-        Product_Price : '₹ 3400/- Pair',
+        Product_Price : '₹ 3500/- Pair',
         Product_Catogery : 'Chair',
         Product_Image : '3.jpeg',
         Product_Desc : 'Cute and comfy, this Baby Chair is perfect for little ones! With its soft cushioning and sturdy design, it provides safe and cozy seating. Lightweight and stylish, it\'s a delightful addition to any space!',
@@ -125,7 +125,7 @@ const Product = [
     {
         Product_Id : '9',
         Product_Name : 'Simple Pouffe',
-        Product_Price : '₹ 1000/- Pair',
+        Product_Price : '₹ 1200/- Pair',
         Product_Catogery : 'Stool',
         Product_Image : '9.jpeg',
         Product_Desc : 'Elegant and functional, this Simple Pouffe offers plush comfort and a sturdy design. Its minimalist style blends seamlessly with any décor, making it perfect as a footrest, extra seat, or accent piece. A versatile addition to any space!',
@@ -139,7 +139,7 @@ const Product = [
     {
         Product_Id : '10',
         Product_Name : 'Jute Pouffe',
-        Product_Price : '₹ 1400/- Pair',
+        Product_Price : '₹ 1700/- Pair',
         Product_Catogery : 'Stool',
         Product_Image : '10.jpeg',
         Product_Desc : 'Eco-friendly and stylish, this Jute Pouffe brings a natural charm to any space. Handcrafted with durable jute and plush cushioning, it offers both comfort and sustainability. Perfect as a footrest, extra seat, or décor accent, it adds warmth and texture to your interiors!',
@@ -153,7 +153,7 @@ const Product = [
     {
         Product_Id : '11',
         Product_Name : 'Storage Drum Pouffe',
-        Product_Price : '₹ 2100/- Pair',
+        Product_Price : '₹ 2800/- Pair',
         Product_Catogery : 'Drum',
         Product_Image : '11.jpeg',
         Product_Desc : 'Stylish and functional, this Storage Drum Pouffe offers both seating and smart storage. With its sturdy design, plush cushioning, and hidden compartment, it’s perfect for organizing essentials while adding elegance to your space. A must-have for comfort and convenience!',
@@ -167,7 +167,7 @@ const Product = [
     {
         Product_Id : '12',
         Product_Name : 'DrawingRoom Set',
-        Product_Price : '₹ 11000/- Pair',
+        Product_Price : '₹ 7000/- Pair',
         Product_Catogery : 'Set',
         Product_Image : '12.jpeg',
         Product_Desc : 'Elegant and practical, this 4 Chair and Table Set is perfect for Drawing or gatherings. Featuring a sturdy table and comfortable chairs with premium finishes, it offers both style and durability. Ideal for homes, cafés, or offices, it creates a warm and inviting space!',
@@ -194,9 +194,9 @@ const Product = [
     },
     {
         Product_Id : '14',
-        Product_Name : 'Simple Table',
-        Product_Price : '₹ 3200/- Pair',
-        Product_Catogery : 'Table',
+        Product_Name : 'Simple Satti',
+        Product_Price : '₹ 2000/- Pair',
+        Product_Catogery : 'Satti',
         Product_Image : '14.jpeg',
         Product_Desc : 'Stylish and durable, this Table is designed for both functionality and elegance. With its sturdy build and sleek finish, it complements any space effortlessly. Perfect for dining, work, or décor, it’s a versatile addition to any home or office!',
         Product_Fabric : 'Holland',
@@ -209,7 +209,7 @@ const Product = [
     {
         Product_Id : '15',
         Product_Name : 'Dual Binding Pouffe',
-        Product_Price : '₹ 2100/- Pair',
+        Product_Price : '₹ 1200/- Pair',
         Product_Catogery : 'Stool',
         Product_Image : '15.jpeg',
         Product_Desc : 'Unique and stylish, this Dual Binding Pouffe features a contrasting trim design for a chic look. With its plush cushioning and sturdy build, it offers both comfort and elegance. Perfect as a footrest, extra seat, or statement piece, it enhances any space beautifully!',
@@ -223,7 +223,7 @@ const Product = [
     {
         Product_Id : '16',
         Product_Name : 'Dual Binding Drum',
-        Product_Price : '₹ 4800/- Pair',
+        Product_Price : '₹ 2000/- Pair',
         Product_Catogery : 'Drum',
         Product_Image : '16.jpeg',
         Product_Desc : 'Elegant and stylish, this Dual Binding Drum Pouffe features a distinct Dual-layered trim for a sophisticated touch. With its sturdy structure and plush cushioning, it offers both comfort and durability. Perfect as a footrest, extra seat, or decorative accent, it adds charm to any space!',
@@ -237,7 +237,7 @@ const Product = [
     {
         Product_Id : '17',
         Product_Name : 'Round Head Chair',
-        Product_Price : '₹ 2600/- Pair',
+        Product_Price : '₹ 3500/- Pair',
         Product_Catogery : 'Chair',
         Product_Image : '17.jpeg',
         Product_Desc : 'Elegant and comfortable, this Round Head Chair features a smooth, curved backrest for superior support and style. With its sturdy frame and plush seating, it offers both durability and luxury. Perfect for homes, offices, or lounges, it adds a touch of sophistication to any space!',
@@ -251,7 +251,7 @@ const Product = [
     {
         Product_Id : '18',
         Product_Name : 'Baby Swimmer',
-        Product_Price : '₹ 4200/- Pair',
+        Product_Price : '₹ 2400/- Pair',
         Product_Catogery : 'Swimmer',
         Product_Image : '18.jpeg',
         Product_Desc : 'Cute and cozy, this Baby Swimmer Pouffe is designed for little ones to relax in style. With its soft cushioning, sturdy design, and playful look, it offers both comfort and support. Perfect for nurseries or play areas, it adds a fun and functional touch to any space!',
@@ -265,7 +265,7 @@ const Product = [
     {
         Product_Id : '19',
         Product_Name : 'Simple Satti',
-        Product_Price : '₹ 6700/- Pair',
+        Product_Price : '₹ 3500/- Pair',
         Product_Catogery : 'Satti',
         Product_Image : '19.jpeg',
         Product_Desc : 'Elegant and functional, this Simple Satti Sofa features a sleek design, plush cushioning, and a sturdy frame for ultimate comfort. Perfect for any living space, it blends seamlessly with modern and classic interiors, offering both style and relaxation. A timeless addition to your home!',
@@ -279,7 +279,7 @@ const Product = [
     {
         Product_Id : '20',
         Product_Name : 'Line Chair',
-        Product_Price : '₹ 2600/- Pair',
+        Product_Price : '₹ 4000/- Pair',
         Product_Catogery : 'Chair',
         Product_Image : '20.jpg',
         Product_Desc : 'Sleek and modern, this Line Chair features a streamlined design with clean, elegant lines for a contemporary touch. With its sturdy frame and comfortable seating, it’s perfect for homes, offices, or cafés. A stylish blend of simplicity and sophistication!',
@@ -292,9 +292,9 @@ const Product = [
     },
     {
         Product_Id : '21',
-        Product_Name : 'Simple Table',
-        Product_Price : '₹ 6500/- Pair',
-        Product_Catogery : 'Table',
+        Product_Name : 'Simple Satti',
+        Product_Price : '₹ 1800/- Pair',
+        Product_Catogery : 'Satti',
         Product_Image : '21.jpeg',
         Product_Desc : 'Sleek and modern, this Line Chair features a streamlined design with clean, elegant lines for a contemporary touch. With its sturdy frame and comfortable seating, it’s perfect for homes, offices, or cafés. A stylish blend of simplicity and sophistication!',
         Product_Fabric : 'Holland',
@@ -304,5 +304,74 @@ const Product = [
         Product_PlyWood : '12mm',
         Product_PlyWood_Brand : 'National Plywood'
     },
-
+    {
+        Product_Id : '22',
+        Product_Name : 'Simple Drum',
+        Product_Price : '₹ 2400/- Pair',
+        Product_Catogery : 'Drum',
+        Product_Image : '22.jpeg',
+        Product_Desc : 'A simple drum pouffe is a compact, cylindrical seat with a cushioned top, offering comfort and versatility. Stylish and lightweight, it serves as extra seating, a footrest, or a decorative accent, perfect for modern spaces.',
+        Product_Fabric : 'Holland',
+        Product_Legs : 'No Legs',
+        Product_Height : '16 Inch',
+        Product_Foam : '32 Dimensity',
+        Product_PlyWood : '12mm',
+        Product_PlyWood_Brand : 'National Plywood'
+    },
+    {
+        Product_Id : '23',
+        Product_Name : 'Room Chair',
+        Product_Price : '₹ 3500/- Pair',
+        Product_Catogery : 'Chair',
+        Product_Image : '23.jpeg',
+        Product_Desc : 'Cute and comfy, this Baby Chair is perfect for little ones! With its soft cushioning and sturdy design, it provides safe and cozy seating. Lightweight and stylish, it\'s a delightful addition to any space!',
+        Product_Fabric : 'Holland, Quilted',
+        Product_Legs : '4: Wooden (Bakain)',
+        Product_Height : '16 Inch',
+        Product_Foam : '32 Dimensity',
+        Product_PlyWood : '12mm',
+        Product_PlyWood_Brand : 'National Plywood'
+    },
+    {
+        Product_Id : '24',
+        Product_Name : 'Simple Pouffe',
+        Product_Price : '₹ 1200/- Pair',
+        Product_Catogery : 'Stool',
+        Product_Image : '24.jpeg',
+        Product_Desc : 'Elegant and functional, this Simple Pouffe offers plush comfort and a sturdy design. Its minimalist style blends seamlessly with any décor, making it perfect as a footrest, extra seat, or accent piece. A versatile addition to any space!',
+        Product_Fabric : 'Holland',
+        Product_Legs : '4: Wooden (Bakain)',
+        Product_Height : '16 Inch',
+        Product_Foam : '32 Dimensity',
+        Product_PlyWood : '12mm',
+        Product_PlyWood_Brand : 'National Plywood'
+    },
+    {
+        Product_Id : '25',
+        Product_Name : 'Room Chair',
+        Product_Price : '₹ 3500/- Pair',
+        Product_Catogery : 'Chair',
+        Product_Image : '25.jpeg',
+        Product_Desc : 'Cute and comfy, this Baby Chair is perfect for little ones! With its soft cushioning and sturdy design, it provides safe and cozy seating. Lightweight and stylish, it\'s a delightful addition to any space!',
+        Product_Fabric : 'Holland, Quilted',
+        Product_Legs : '4: Wooden (Bakain)',
+        Product_Height : '16 Inch',
+        Product_Foam : '32 Dimensity',
+        Product_PlyWood : '12mm',
+        Product_PlyWood_Brand : 'National Plywood'
+    },
+    {
+        Product_Id : '26',
+        Product_Name : 'Baby Chair',
+        Product_Price : '₹ 1700/- Pair',
+        Product_Catogery : 'Chair',
+        Product_Image : '26.jpeg',
+        Product_Desc : 'Cute and comfy, this Baby Chair is perfect for little ones! With its soft cushioning and sturdy design, it provides safe and cozy seating. Lightweight and stylish, it\'s a delightful addition to any space!',
+        Product_Fabric : 'Holland, Quilted',
+        Product_Legs : '4: Wooden (Bakain)',
+        Product_Height : '16 Inch',
+        Product_Foam : '32 Dimensity',
+        Product_PlyWood : '12mm',
+        Product_PlyWood_Brand : 'National Plywood'
+    },
 ]
