@@ -167,7 +167,7 @@ const Product = [
     {
         Product_Id : '12',
         Product_Name : 'DrawingRoom Set',
-        Product_Price : '₹ 7000/- Pair',
+        Product_Price : '₹ 8500/- Pair',
         Product_Catogery : 'Set',
         Product_Image : '12.jpeg',
         Product_Desc : 'Elegant and practical, this 4 Chair and Table Set is perfect for Drawing or gatherings. Featuring a sturdy table and comfortable chairs with premium finishes, it offers both style and durability. Ideal for homes, cafés, or offices, it creates a warm and inviting space!',
@@ -374,4 +374,19 @@ const Product = [
         Product_PlyWood : '12mm',
         Product_PlyWood_Brand : 'National Plywood'
     },
+    {
+        Product_Id : '27',
+        Product_Name : 'Jute Pouffe',
+        Product_Price : '₹ 1400/- Pair',
+        Product_Catogery : 'Stool',
+        Product_Image : '27.jpeg',
+        Product_Desc : 'Eco-friendly and stylish, this Jute Pouffe brings a natural charm to any space. Handcrafted with durable jute and plush cushioning, it offers both comfort and sustainability. Perfect as a footrest, extra seat, or décor accent, it adds warmth and texture to your interiors!',
+        Product_Fabric : 'Jute',
+        Product_Legs : '4: Wooden (Bakain)',
+        Product_Height : '16 Inch',
+        Product_Foam : '32 Dimensity',
+        Product_PlyWood : '12mm',
+        Product_PlyWood_Brand : 'National Plywood'
+    },
+    
 ]
